@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+#wrapper{
+    height: 640px;
+    width: 100%;
+    background-color:  #800020 ;
+
+}
+.nav{
+    height: 100px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    color: #fff;
+    padding: 40px 70px;
+
+}
+h5{
+    color: #fff;
+    font-size: 23px;
+    font-style: italic;
+}
+.content{
+    width: 80%;
+    display: flex;
+}
+.content li{
+    text-decoration: none;
+    list-style: none;
+    padding: 40px 70px;
+    font-size: 28px;
+    color: #fff;
+}
+.content li:hover{
+    text-decoration: underline overline;
+    transition: 0.1s;
+    
+}
+.content #btn{
+   width: 108px;
+   height: 50px;
+   border: none;
+   border-radius: 10px;
+   margin-top: 25px;
+   margin-left: 0px;
+   font-size: 17px;
+}
+.content #btn:hover{
+ background-color: #800020;
+ color: #fff;
+ border: 2px solid #fff;
+}
+.main{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+.left{
+    padding: 60px 80px;
+    height: 500px;
+    width: 50%;
+}
+.left h1{
+    color: #e7e5e5;
+    font-size: 53px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+
+}
+.left p{
+    color: #e7e5e5;
+    font-size: 20px;
+
+    padding-bottom: 10px;
+
+}
+#btn-1{
+    width: 118px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+#btn-1:hover{
+    background-color: #800020;
+ color: #fff;
+ border: 2px solid #fff;
+}
+.right{
+    height: 500px;
+    width: 50%;
+}
+.img{
+    padding-top: 30px;
+    height: 500px;
+    width: 70%;
+    background-image: url("images/ee991604-5e6e-4323-b152-4f24fe7f9f36.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+
+
+}
+/*  About */
+.main-1{
+    height: 530px;
+
+}
+#one{
+    font-size: 49px;
+    color: #800020;
+    padding-left: 43%;
+    padding-top: 10px;
+
+}
+.about{
+    background-color: #fff;
+    height: 330px;
+    color: #800020;
+    display: flex;
+    justify-content:space-evenly ;
+     font-size: 34px;
+    margin-top: 80px;
+}
+.about p{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 42px;
+}
+img{
+    margin-top: 20px;
+    margin-left: 88px;
+    }
+#about-1{
+    margin-top: 33px;
+    margin-left: 39px;
+    font-size: 34px;
+}
+.box{
+    margin-top: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px #dad8d8;
+
+}
+.box:hover{
+    border: 4px solid #800020;
+    transition: 1s;
+    transform: translate(1deg);
+
+}
+/*     Services    */
+.services{
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+h4{
+    color: #800020;
+    font-size: 45px;
+    margin-left: 41%;
+    margin-bottom: 20px;
+
+}
+ .one {
+    margin-top: 20px;
+    color: #800020;
+    font-size: 45px;
+    margin-left: 36%;
+
+}
+.two {
+    margin-top: 10px;
+    color: #800020;
+    font-size: 45px;
+    margin-left: 34%;
+
+}
+.boxes-1{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin-left: 15%;
+
+
+}
+.boxes-2{
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin-left: 15%;
+
+
+
+}
+.box-1{
+    width: 28%;
+    margin:8px 9px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px #dad8d8;
+    height: 280px;
+}
+.box-1:hover{
+    transform: scale(0.9);
+
+}
+h3{
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #800020;
+    font-size: 23px;
+}
+.Fair{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 410px;
+    background-color: #800020e5
+}
+.upper{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    padding-left:80px ;
+}
+.box4{
+    width: 30%;
+    height: 340px;
+    padding: 40px 50px;
+}
+.box4 h1{
+    color: #fff;
+}
+.box4 p{
+    color: #fff;
+    padding-top: 10px;
+
+}
+input{
+    margin-top:10px ;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    width: 180px;
+    border: none;
+    padding-left: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+#ico{
+    color: #fff;
+
+}
+.lower{
+    width: 100%;
+    height: 70px;
+    background-color: #000000b3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box5 p{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 19px;
+}
